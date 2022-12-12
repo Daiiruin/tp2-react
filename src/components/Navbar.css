@@ -1,0 +1,49 @@
+.profileName{
+  height: 24px;
+  width: 24px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.navbar{
+  margin-top: 10px;
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #494545;
+}
+
+.user{
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileName{
+  margin-right: 30px;
+}
+
+.logOutButton{
+  border: none;
+  background-color: #494545;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.logOutButton:hover{
+  background-color: #8d8989;
+  color: #494545;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.profileLogo{
+  width: 19px;
+  height: 19px;
+}

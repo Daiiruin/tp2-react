@@ -1,0 +1,21 @@
+.addButton{
+  background-color: #494545;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.addButton:hover{
+  background-color: #8d8989;
+  color: #494545;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.containerAdd{
+  margin-top: 15px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

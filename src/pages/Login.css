@@ -1,0 +1,74 @@
+.registerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.backgroundImage {
+  height: 100vh;
+  width: 70vw;
+  background-image: url('../images/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formContainer {
+  background-color: rgb(252, 252, 252);
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+form input {
+  padding: 15px;
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid #494545;
+}
+
+form input::placeholder {
+  color: #b7b6b6;
+  font-size: 15px;
+}
+
+form button {
+  background-color: #494545;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+form p {
+  color: #494545;
+  font-style: 12px;
+  margin-top: 10px;
+}
+
+
+.logo {
+  color: #494545;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.title {
+  color: #494545
+}
