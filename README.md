@@ -8,3 +8,5 @@ Point fort :
 
 Point faible :
 - Les posts ne fonctionnent pas. (Nous avons du mal à les mettre dans la base de données.) ❌
+
+(Equipe : Arsène DOBROVOLSKYY, Veljko VOJINOVIC )
